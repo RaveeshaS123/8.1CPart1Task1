@@ -44,5 +44,9 @@ pipeline {
                 echo 'Stage 7 - Deploy to Production: Deploying validated application to AWS EC2 production server for live user access.'
             }
         }
+        stage('change Git'){
+            steps{
+                echo 'this is change'
+            }
     }
 }
