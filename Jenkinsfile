@@ -46,7 +46,7 @@ pipeline {
         }
         stage('change Git'){
             steps{
-                echo 'this is change trigger for the demo'
+                echo 'this is change trigger for the demo of the task'
             }
     }
 }
